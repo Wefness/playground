@@ -24,11 +24,11 @@ public class PraticaWrapper {
         }
     }
 
-    private static void maiusculaMinuscula(char character) {
+    private static void maiusculaMinuscula(Character character) {
         System.out.print(Character.toLowerCase(character));
     }
 
-    private static void minusculaMaiuscula(char character) {
+    private static void minusculaMaiuscula(Character character) {
         System.out.print(Character.toUpperCase(character));
     }
 }
